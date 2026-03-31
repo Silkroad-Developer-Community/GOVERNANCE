@@ -1,0 +1,112 @@
+name: Membership Request & Agreement
+description: Apply to join the GitHub Organization
+title: "[MEMBERSHIP] <Your GitHub Username>"
+labels: ["membership", "pending-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome! Please fill out this application to request membership. By submitting this form, you agree to our organizational motives and semi-obligations.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: 📋 Prerequisites for Application
+      description: Applications are accepted through one of the following three pathways. Please check the one(s) that apply to you.
+      options:
+        - label: "**Recommendation:** I have been recommended for membership by a current organization member."
+        - label: "**Established Contributorship:** I have established a track record of proper communication and positive contributorship within the organization's ecosystem of projects prior to this request."
+        - label: "**Silkroad Online Pioneer:** I have a history of established contributions regarding Silkroad Online, helping to pave the way and revolutionize the scene."
+    validations:
+      required: true
+
+  - type: input
+    id: recommending-member
+    attributes:
+      label: Recommending Member (If Applicable)
+      description: If you checked "Recommendation" above, please provide the GitHub username of the member recommending you.
+      placeholder: "@username"
+    validations:
+      required: false
+
+  - type: input
+    id: email
+    attributes:
+      label: 📧 Git Commit Email
+      description: Please provide your Git commit email so we can properly attribute your work.
+      placeholder: your.email@example.com
+    validations:
+      required: true
+
+  - type: input
+    id: discord-telegram
+    attributes:
+      label: Discord / Telegram (Optional)
+      description: Where can we reach you for quick chats?
+    validations:
+      required: false
+
+  - type: input
+    id: socials
+    attributes:
+      label: Other Socials/Links (Optional)
+      description: GitHub profile, Twitter, website, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: proposed-roles
+    attributes:
+      label: 🛠️ Proposed Roles
+      description: Please check all the roles you intend to take on within the organization.
+      options:
+        - label: Maintainer
+        - label: Co-Maintainer
+        - label: Contributor
+        - label: Reviewer / Triager
+    validations:
+      required: true
+
+  - type: textarea
+    id: role-description
+    attributes:
+      label: Description of Roles & Associated Repositories
+      description: Detail which repositories you will be working on and what your focus will be.
+      placeholder: "Maintainer for [Repo X], Contributor for [Repo Y]."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 🤝 Statement of Motives
+        By submitting this Issue, I am requesting to join this GitHub Organization. I acknowledge that while this is not a legally binding contract, it serves as a mutual agreement that we share the same motives, goals, and respect for the organization's ecosystem, which encompasses multiple projects overseen by various maintainers.
+        
+        ### 📝 The "Semi-Obligations"
+        As a member of this organization, I agree to make a good-faith effort to uphold the following expectations across any of the repositories I interact with:
+        
+        * **Code Review (When Available):** I will help review open Pull Requests across the organization's projects when I have the time and bandwidth. I understand this is highly encouraged but *not completely mandatory* if my schedule does not permit.
+        * **Active Participation:** I will provide my thoughts, feedback, and constructive criticism on new proposals, issues, and discussions to help steer our projects in the right direction.
+        * **Good Etiquette & Respect:** I will maintain professionalism and good etiquette toward all parties at all times. This includes fellow contributors, individual project maintainers, and end-users. Toxicity, gatekeeping, and disrespect have no place here.
+        
+        ### 🛑 Membership Revocation
+        I understand that membership in this organization is a privilege, not a right. If I consistently fail to meet these semi-obligations—especially regarding etiquette and respect toward others—my membership in the organization may be revoked by the organization owners or maintainers.
+
+  - type: checkboxes
+    id: acknowledgment
+    attributes:
+      label: ✅ Acknowledgment
+      description: Please check the boxes below to agree before submitting.
+      options:
+        - label: I meet at least one of the three application prerequisites listed above.
+        - label: I have filled out my proposed roles and associated repositories accurately.
+        - label: I have read and understand the expectations laid out in the semi-obligations.
+        - label: I agree to treat contributors, maintainers of all projects, and users with respect.
+        - label: I understand that my membership can be revoked if I consistently breach this agreement.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > **Note to Organization Owners/Maintainers:** Approving this Issue and sending an organization invite constitutes official acceptance of this user into the organization under the agreed-upon terms.
