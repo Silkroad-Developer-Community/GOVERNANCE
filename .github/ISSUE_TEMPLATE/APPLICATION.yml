@@ -32,11 +32,11 @@ body:
   - type: input
     id: email
     attributes:
-      label: 📧 Git Commit Email
-      description: Please provide your Git commit email so we can properly attribute your work.
+      label: 📧 Git Commit Email (Optional)
+      description: You can provide an email if you'd like.
       placeholder: your.email@example.com
     validations:
-      required: true
+      required: false
 
   - type: input
     id: discord-telegram
@@ -81,14 +81,14 @@ body:
       value: |
         ### 🤝 Statement of Motives
         By submitting this Issue, I am requesting to join this GitHub Organization. I acknowledge that while this is not a legally binding contract, it serves as a mutual agreement that we share the same motives, goals, and respect for the organization's ecosystem, which encompasses multiple projects overseen by various maintainers.
-        
+
         ### 📝 The "Semi-Obligations"
         As a member of this organization, I agree to make a good-faith effort to uphold the following expectations across any of the repositories I interact with:
-        
+
         * **Code Review (When Available):** I will help review open Pull Requests across the organization's projects when I have the time and bandwidth. I understand this is highly encouraged but *not completely mandatory* if my schedule does not permit.
         * **Active Participation:** I will provide my thoughts, feedback, and constructive criticism on new proposals, issues, and discussions to help steer our projects in the right direction.
         * **Good Etiquette & Respect:** I will maintain professionalism and good etiquette toward all parties at all times. This includes fellow contributors, individual project maintainers, and end-users. Toxicity, gatekeeping, and disrespect have no place here.
-        
+
         ### 🛑 Membership Revocation
         I understand that membership in this organization is a privilege, not a right. If I consistently fail to meet these semi-obligations—especially regarding etiquette and respect toward others—my membership in the organization may be revoked by the organization owners or maintainers.
 

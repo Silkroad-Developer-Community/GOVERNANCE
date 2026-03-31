@@ -14,3 +14,4 @@ To apply for membership, please submit a [Membership Request](.github/ISSUE_TEMP
 | Member                                 | Role          | Associations | Contact                               |
 | -------------------------------------- | ------------- | ------------ | ------------------------------------- |
 | [@Egezenn](https://github.com/Egezenn) | Co-Maintainer | RSBot fork   | egezenn@tutanota.com discord/@egezenn |
+| [@kis1yi](https://github.com/kis1yi)   | Maintainer    | RSBot fork   | discord/@kis1yi                       |
