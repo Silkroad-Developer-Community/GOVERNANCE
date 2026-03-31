@@ -8,3 +8,9 @@ This repository manages the organizational standards and membership for the Silk
 ## Membership
 
 To apply for membership, please submit a [Membership Request](.github/ISSUE_TEMPLATE/APPLICATION.yml).
+
+## Members
+
+| Member                                 | Role          | Associations | Contact                               |
+| -------------------------------------- | ------------- | ------------ | ------------------------------------- |
+| [@Egezenn](https://github.com/Egezenn) | Co-Maintainer | RSBot fork   | egezenn@tutanota.com discord/@egezenn |
