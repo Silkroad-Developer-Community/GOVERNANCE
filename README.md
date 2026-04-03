@@ -7,7 +7,7 @@ This repository manages the organizational standards and membership for the Silk
 
 ## Membership
 
-To apply for membership, please submit a [Membership Request](https://github.com/Silkroad-Developer-Community/GOVERNANCE/issues/new?template=APPLICATION.yml).
+To apply for membership, please submit a [Membership Request](https://github.com/Silkroad-Developer-Community/GOVERNANCE/issues/new?template=APPLICATION.yml). Any application can be changed in the future; tagging related people and stating that the form has been changed is enough for reconsideration.
 
 ## Members
 

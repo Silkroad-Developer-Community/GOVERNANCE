@@ -8,6 +8,8 @@ body:
       value: |
         Welcome! Please fill out this application to request membership. By submitting this form, you agree to our organizational motives and semi-obligations.
 
+        **Note:** Any application can be changed in the future; tagging related people and stating that the form has been changed is enough for reconsideration.
+
   - type: checkboxes
     id: prerequisites
     attributes:
