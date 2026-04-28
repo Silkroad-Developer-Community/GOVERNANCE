@@ -11,8 +11,13 @@ To apply for membership, please submit a [Membership Request](https://github.com
 
 ## Members
 
-| Member                                   | Role          | Associations    | Contact                               |
-| ---------------------------------------- | ------------- | --------------- | ------------------------------------- |
-| [@Egezenn](https://github.com/Egezenn)   | Co-Maintainer | RSBot/SDUI fork | egezenn@tutanota.com discord/@egezenn |
-| [@kis1yi](https://github.com/kis1yi)     | Maintainer    | RSBot/SDUI fork | discord/@kis1yi                       |
-| [@Day4Date](https://github.com/Day4Date) | Contributor   | RSBot/SDUI fork | discord/@daydate                      |
+| Member                                   | Role          | Associations                                                                                          | Contact                               |
+| ---------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| [@Egezenn](https://github.com/Egezenn)   | Maintainer    | [Org Website](https://github.com/Silkroad-Developer-Community/Silkroad-Developer-Community.github.io) | egezenn@tutanota.com discord/@egezenn |
+|                                          | Maintainer    | [GOVERNANCE](https://github.com/Silkroad-Developer-Community/GOVERNANCE)                              |                                       |
+|                                          | Maintainer    | [ROADMAP](https://github.com/Silkroad-Developer-Community/ROADMAP)                                    |                                       |
+|                                          | Maintainer    | [Org-wide configs](https://github.com/Silkroad-Developer-Community/.github)                           |                                       |
+|                                          | Maintainer    | [Silkroad-NavLink](https://github.com/Silkroad-Developer-Community/Silkroad-NavLink)                  |                                       |
+|                                          | Co-Maintainer | [RSBot fork](https://github.com/Silkroad-Developer-Community/RSBot)                                   |                                       |
+| [@kis1yi](https://github.com/kis1yi)     | Maintainer    | [RSBot fork](https://github.com/Silkroad-Developer-Community/RSBot)                                   | discord/@kis1yi                       |
+| [@Day4Date](https://github.com/Day4Date) | Contributor   | [RSBot fork](https://github.com/Silkroad-Developer-Community/RSBot)                                   | discord/@daydate                      |
